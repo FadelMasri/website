@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Franklin&family=Lobster+Two:ital@1&family=PT+Sans:wght@700&family=Poppins:wght@200;300&family=Raleway:ital,wght@0,100;0,200;0,400;1,100&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("tree.jpg");
+  background-position: center;
+  background-size: cover;
+}
+header {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logo {
+  padding-top: 12px;
+  padding-left: 20px;
+  color: #ff7200;
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+
+
+}
+ul {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 80px;
+  color: aliceblue;
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+  font-family: 'Lobster Two', cursive;
+}
+ul li:hover {
+  cursor: pointer;
+  color: #ff7200;
+}
+.search {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  width: 330px;
+}
+.srch {
+  border: 1px solid #ff7200;
+  font-size: 16px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  border-right: 16px;
+  border-top-left-radius: 5px;
+  background: transparent;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.btn {
+  font-size: 15.2px;
+  cursor: pointer;
+  margin-bottom: 1px;
+  height: 100%;
+  width: 80px;
+  color: #fff;
+  background-color: #ff7200;
+  border: 2px solid #ff7200;
+  outline: none;
+  border-bottom-right-radius: 5px;
+}
+.btn:focus,
+.srch:focus {
+  outline: none;
+}
+.body {
+  width: 82.5%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.body h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: white;
+  margin-bottom: 30px;
+}
+.body h1 span {
+  color: #ff7200;
+}
+.body p {
+    font-family: 'Roboto', sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 25px;
+  
+}
+.demand{
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+.hero-btn{
+    width: 140px;
+    padding: 10px;
+    color: black;
+    background-color: #ff7200;
+    border: 1px ;
+    border-radius: 8px;
+}
+.hero-btn:hover{
+   background: white;
+   cursor: pointer;
+}
+.site-login{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    
+    border-radius: 5px;
+    height: 300px;
+    opacity: 0.6;
+    box-shadow: 0 0 10px white;
+    margin-right: 26px;
+}
+.titlel{
+    color: #ff7200;
+     width: 220px;
+    margin-left: 34px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form div{
+    margin-top: 30px;
+}
+.form div input{
+    width: 240px;
+    height: 35px;
+    background-color: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.form div input:focus{
+    outline: none;
+}
+.loginbtn{
+    width: 240px;
+    height: 40px;
+    background-color: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.loginbtn:hover{
+    background: white;
+    color: #ff7200;
+}
+.loginbtn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
